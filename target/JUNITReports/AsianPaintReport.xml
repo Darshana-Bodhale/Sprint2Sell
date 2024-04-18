@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="72.82" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="To rent the residential property at the given packages" time="19.802">
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+And user clicks on ad packages..............................................passed
+And user clicks on show me packages.........................................passed
+When user selects rent function.............................................passed
+And Scroll down to buy the package..........................................passed
+And user clicks on Buy Now for gold plus package............................passed
+Then Add to My orders page should be displayed..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="Request a callback with all the valid credentials - Example #1.1" time="28.675">
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When User clicks the Ad packages............................................passed
+And User enters Darshana,7654329010,darshana@gmail.com,Nagpur and I want to ask about ad Packages you can call me at 9:00Am.passed
+And User clicks the CheckBox................................................passed
+And User clicks on the request a callback...................................passed
+Then It should display a thankyou message...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="Request a callBack with all the empty credentials" time="23.991">
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When user clicks on the ad packages.........................................passed
+And user fill some of the credentials and some leave blank..................passed
+And user scroll down the webpage............................................passed
+And clicks on request a callback............................................passed
+Then Fields which are empty should display the error message................passed
+]]></system-out>
+</testcase>
+</testsuite>

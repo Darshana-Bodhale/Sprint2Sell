@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="112.489" tests="5" skipped="0" failures="3" errors="0">
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="To rent the residential property at the given packages" time="20.31">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&quot;Sell&quot;]&quot;}
+  (Session info: chrome=123.0.6312.107)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f038e1cf77a75bb2b546240f19bce50, findElement {using=xpath, value=//a[text()=&quot;Sell&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55378/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f038e1cf77a75bb2b546240f19bce50">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="Sell"]"}
+  (Session info: chrome=123.0.6312.107)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f038e1cf77a75bb2b546240f19bce50, findElement {using=xpath, value=//a[text()="Sell"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55378/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f038e1cf77a75bb2b546240f19bce50
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at MbPages.ShowPackagePage.HoverSell(ShowPackagePage.java:44)
+	at MbStepDefinition.StepDefinition.user_hover_to_the_sell_module(StepDefinition.java:104)
+	at ✽.user hover to the sell module(file:///C:/Users/DABODHAL/OneDrive%20-%20Capgemini/Documents/Projects/com.MagicBricks/src/test/resource/MbFeatures/Sell.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................failed
+And user clicks on ad packages..............................................skipped
+And user clicks on show me packages.........................................skipped
+When user selects rent function.............................................skipped
+And Scroll down to buy the package..........................................skipped
+And user clicks on Buy Now for gold plus package............................skipped
+Then Add to My orders page should be displayed..............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="Request a callback with all the valid credentials - Example #1.1" time="36.273">
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When User clicks the Ad packages............................................passed
+And User enters Darshana,7654329010,darshana@gmail.com,Nagpur and I want to ask about ad Packages you can call me at 9:00Am.passed
+And User clicks the CheckBox................................................passed
+And User clicks on the request a callback...................................passed
+Then It should display a thankyou message...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="Request a callBack with all the some empty credentials" time="10.617">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=123.0.6312.107)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c4bb01161fbedd9ebcfc5a2be5e306e, clickElement {id=f.F3D9B17BFB6F37380370EFCBD6BF20E6.d.9649256C395E7FD84BF0817A374009A5.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55514}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55514/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c4bb01161fbedd9ebcfc5a2be5e306e)] -&gt; xpath: //a[text() =&quot;Ad Packages&quot;]]
+Session ID: 5c4bb01161fbedd9ebcfc5a2be5e306e">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.107)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c4bb01161fbedd9ebcfc5a2be5e306e, clickElement {id=f.F3D9B17BFB6F37380370EFCBD6BF20E6.d.9649256C395E7FD84BF0817A374009A5.e.71}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55514}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55514/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5c4bb01161fbedd9ebcfc5a2be5e306e)] -> xpath: //a[text() ="Ad Packages"]]
+Session ID: 5c4bb01161fbedd9ebcfc5a2be5e306e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at MbPages.ShowPackagePage.clickAdPackage(ShowPackagePage.java:49)
+	at MbStepDefinition.StepDefinition.user_clicks_on_the_ad_packages(StepDefinition.java:150)
+	at ✽.user clicks on the ad packages(file:///C:/Users/DABODHAL/OneDrive%20-%20Capgemini/Documents/Projects/com.MagicBricks/src/test/resource/MbFeatures/Sell.feature:50)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When user clicks on the ad packages.........................................failed
+And user fill some of the credentials and some leave blank..................skipped
+And user scroll down the webpage............................................skipped
+And clicks on request a callback............................................skipped
+Then Fields which are empty should display the error message................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="Product should not be added to cart without login" time="16.212">
+<failure type="java.lang.AssertionError" message="expected [0] but found [1]">
+<![CDATA[java.lang.AssertionError: expected [0] but found [1]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at MbStepDefinition.StepDefinition.product_should_not_be_added_to_cart(StepDefinition.java:211)
+	at ✽.Product should not be added to cart(file:///C:/Users/DABODHAL/OneDrive%20-%20Capgemini/Documents/Projects/com.MagicBricks/src/test/resource/MbFeatures/Sell.feature:70)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When user clicks on iAdvantage..............................................passed
+And clicks on go to cart user should ask for login..........................passed
+When user move back to the iAdvantage.......................................passed
+And clicks on Add to my orders..............................................passed
+Then Product should not be added to cart....................................failed
+]]></system-out>
+</testcase>
+<testcase classname="To validate user is able to view the packages and rent the property at given packages" name="User should be able to know the property price according to their requirement - Example #1.1" time="28.581">
+<system-out><![CDATA[
+Given User has opened the magic bricks website..............................passed
+When user hover to the sell module..........................................passed
+When user clicks on property Valuation......................................passed
+And enters the Pune name....................................................passed
+And select the property type................................................passed
+And enters the 400 of property..............................................passed
+And selects the floor.......................................................passed
+And selects the number of cars for open parking.............................passed
+And clicks on check now.....................................................passed
+Then Estimated price of the property should be displayed....................passed
+]]></system-out>
+</testcase>
+</testsuite>
